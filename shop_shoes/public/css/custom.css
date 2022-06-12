@@ -1,0 +1,29 @@
+.alert { /* custom erro form login-register */
+  padding: 0rem 1rem !important;
+}
+
+.nav-custom {
+  background-color: #5b6262 !important;
+  color: #1a1e21;
+}
+
+.custom-nav-products {
+  background-color: #907676 !important;
+  position: relative !important;
+}
+
+.custom-container-products {
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.products a {
+  text-decoration: none !important;
+}
+.products .custom-label-products {
+  color: rgba(122, 117, 117, 0.95);
+}
+
+.products:hover .custom-label-products {
+  color: black;
+}

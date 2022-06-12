@@ -1,0 +1,28 @@
+#body-login-register {
+    background-image: linear-gradient(to right, purple, pink);
+}
+
+.container-register {
+    @extend .container-login-register;
+    margin-top: 10vh;
+}
+
+.container-login{
+    @extend .container-login-register;
+    margin-top: 20vh;
+}
+
+.container-login-register {
+    max-width: 500px;
+    border-radius: 20px;
+    border: rgba(87, 133, 222, 0.99) !important;
+    background-color: rgba(87, 133, 222, 0.99);
+
+    .label-color {
+        color: black !important;
+    }
+
+    .form-input {
+        box-shadow: none !important;
+    }
+}

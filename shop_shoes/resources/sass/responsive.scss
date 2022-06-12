@@ -1,0 +1,13 @@
+$res_375 : "only screen and (min-width: 375px) and (max-width: 424px)";
+$res_1024 : "only screen and (min-width: 1024px) and (max-width: 1999px)";
+
+@mixin responsive_375() {
+    @media #{$res_375} {
+        @content;
+    }
+}
+@mixin responsive_1024() {
+    @media #{$res_1024} {
+        @content;
+    }
+}

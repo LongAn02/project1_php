@@ -1,0 +1,24 @@
+#body-login-register {
+  background-image: linear-gradient(to right, purple, pink);
+}
+
+.container-register {
+  margin-top: 10vh;
+}
+
+.container-login {
+  margin-top: 20vh;
+}
+
+.container-login-register, .container-register, .container-login {
+  max-width: 500px;
+  border-radius: 20px;
+  border: rgba(87, 133, 222, 0.99) !important;
+  background-color: rgba(87, 133, 222, 0.99);
+}
+.container-login-register .label-color, .container-register .label-color, .container-login .label-color {
+  color: black !important;
+}
+.container-login-register .form-input, .container-register .form-input, .container-login .form-input {
+  box-shadow: none !important;
+}
